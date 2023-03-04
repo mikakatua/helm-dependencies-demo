@@ -1,0 +1,6 @@
+dependencies:
+- name: http-server
+  repository: file://charts/http-server
+  version: 0.1.0
+digest: sha256:33d108f4f4d0ffd6c8cce13aa2bb1169c51743963ffc27c69e96462a4d6c8a91
+generated: "2023-03-04T12:28:37.318619081+01:00"

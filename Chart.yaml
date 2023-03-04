@@ -1,0 +1,11 @@
+apiVersion: v2
+name: http-client
+description: A Helm chart for a simple http client
+type: application
+version: 0.1.0
+appVersion: "1.0"
+dependencies:
+  - name: http-server
+    alias: server
+    version: 0.1.0
+    repository: "file://charts/http-server"
